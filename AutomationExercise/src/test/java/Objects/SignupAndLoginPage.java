@@ -102,10 +102,6 @@ public class SignupAndLoginPage {
 		
 	}
 	
-	public void DeleteAccount() {
-		driver.findElement(By.cssSelector("a[href='/delete_account']")).click();
-		driver.findElement(By.cssSelector(".btn.btn-primary")).click();
-	}
 	
 	
 	
