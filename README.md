@@ -1,5 +1,7 @@
 Page Objects: src/test/java/Objects
+
 Main Test: src/test/java/Test_Scenarios
+
 1) Signup and Login Page: a) Register b) Successful login c) Unsuccessful login (error message control) d) Delete account e) Logout 
 2) Contact Us Page: a) Check the contact us form
 3) Test Cases Page: a) Verify the test cases are visible
