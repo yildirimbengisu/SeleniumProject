@@ -142,11 +142,11 @@ public class ProductsPage {
 		boolean allVisible = brands.stream().allMatch(WebElement::isDisplayed);
 		if (allVisible) 
 		{
-		    System.out.println("All products related to the search are visible");
+		    System.out.println("Brand related to the search is visible");
 		} 
 		else 
 		{
-		    System.out.println("Some products related to the search are not visible");
+		    System.out.println("Brand related to the search is not visible");
 		}
 		js.executeScript("window.scrollBy(0,500)");
 		WebElement brand1 = driver.findElement(By.cssSelector("a[href='/brand_products/Polo']"));
